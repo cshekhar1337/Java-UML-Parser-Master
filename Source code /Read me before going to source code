@@ -1,0 +1,12 @@
+Open Intellij Idea 
+go to file-> open then select parser folder
+In the project explorer window select the parser project right click go to module settings.
+In that select project sdk java 1.7
+Also click on the dependency tab to select the dependency. Click on + . It will open the window which shows the files inside the  parser project.
+Now select antlr-4.5.1-complete.jar and plantuml.jar
+After adding these dependency. Go to run -> edit configuration
+Now enter the program arguments. two arguments are there. one is path to the directory. Other is output file name along with its path. 
+for example: 
+/home/shekhar/Desktop/uml-parser-test-1/  /home/shekhar/Desktop/test1
+Here “/home/shekhar/Desktop/uml-parser-test-1/”  is path to the directory containing the java files
+“/home/shekhar/Desktop/test1” is path to output file. Also file name is test1. No need to generate to give extension of the file as the program generates a png file each time.
